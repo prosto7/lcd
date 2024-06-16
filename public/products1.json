@@ -1,0 +1,101 @@
+[
+  {
+    "productId": "31",
+    "productName": "чай черный индийский в пакетиках",
+    "price": 143,
+    "weight": "40 г",
+    "expiry": "36 месяцев",
+    "barcodeNumber": "80761761",
+    "spacing": 650 
+  },
+  {
+    "productId": "32",
+    "productName": "чай черный с малиной в пирамидках",
+    "price": 230,
+    "weight": "30 г",
+    "expiry": "36 месяцев",
+    "barcodeNumber": "80761761",
+    "spacing": 400 
+  },
+  {
+      "productId": "33",
+      "productName": "чайные напитки ассорти",
+      "price": 270,
+      "weight": "43 г",
+      "expiry": "",
+      "barcodeNumber": "80761761",
+      "spacing": 140
+    },
+    {
+      "productId": "34",
+      "productName": "чай черный с бергамотом листовой",
+      "price": 275,
+      "weight": "50 г",
+      "expiry": "",
+      "barcodeNumber": "80761761",
+      "spacing":150
+    }
+    , {
+      "productId": "35",
+      "productName": "чай черный с чабрецом в пирамидках",
+      "price": 260,
+      "weight": "40 г",
+      "expiry": "24 месяца",
+      "barcodeNumber": "80761761",
+      "spacing": 120 
+    }
+    , {
+      "productId": "36",
+      "productName": "Напиток чайный \"ройбуш\" в пирамидках",
+      "price": 278,
+      "weight": "40 г",
+      "expiry": "24 месяца",
+      "barcodeNumber": "80761761",
+      "spacing": 180
+    }, {
+      "productId": "37",
+      "productName": "чай травяной в пакетиках",
+      "price": 186,
+      "weight": "36 г",
+      "expiry": "36 месяца",
+      "barcodeNumber": "80761761",
+      "spacing": 180
+    }, {
+      "productId": "38",
+      "productName": "напиток чайный \"шиповник с яблоком и малиной\" в пакетиках",
+      "price": 155,
+      "weight": "36 г",
+      "expiry": "36 месяца",
+      "barcodeNumber": "80761761",
+      "spacing":180
+    }
+    , {
+      "productId": "39",
+      "productName": "напиток чайный \"гречишный\"",
+      "price": 185,
+      "weight": "37.5 г",
+      "expiry": "24 месяца",
+      "barcodeNumber": "80761761",
+      "spacing": 100
+    },
+    {
+      "productId": "40",
+      "productName": "напиток чайный \"гречишный\"",
+      "price": 225,
+      "weight": "75 г",
+      "expiry": "24 месяца",
+      "barcodeNumber": "80761761",
+      "spacing": 90
+    }
+    , {
+      "productId": "41",
+      "productName": "кофе жареный молотоый в дрип-пакетах \"бразилия\"",
+      "price": 285,
+      "weight": "60 г",
+      "expiry": "12 месяцев",
+      "barcodeNumber": "80761761",
+      "spacing": 50  
+    }
+
+
+]

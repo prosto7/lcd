@@ -1,0 +1,88 @@
+[{
+  "productId": "1",
+  "productName": "КОФЕ \"ВЕНСКИЙ\" МОЛОТЫЙ",
+  "price": 340,
+  "weight": "150 г",
+  "expiry": "3 месяца",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+},
+{
+  "productId": "2",
+  "productName": "КОФЕ \"ВЕНСКИЙ\" МОЛОТЫЙ",
+  "price": 340,
+  "weight": "150 г",
+  "expiry": "3 месяца",
+  "barcodeNumber": "80761761",
+  "spacing": 290
+},
+{
+  "productId": "3",
+  "productName": "КОФЕ ЖАРЕНЫЙ МОЛОТЫЙ \"ИТАЛЬЯНСКИЙ ЗАВТРАК\"",
+  "price": 365,
+  "weight": "150 г",
+  "expiry": "3 месяца",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+},
+{
+  "productId": "4",
+  "productName": "КОФЕ НАТУРАЛЬНЫЙ ЖАРЕНЫЙ МОЛОТЫЙ С АРОМАТОМ ВИШНИ",
+  "price": 340,
+  "weight": "150 г",
+  "expiry": "",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+}, {
+  "productId": "5",
+  "productName": "КОФЕ \"ТУРЕЦКИЙ\" ЖАРЕНЫЙ МОЛОТЫЙ ",
+  "price": 350,
+  "weight": "150 г",
+  "expiry": "",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+}, {
+  "productId": "6",
+  "productName": "КОФЕ НАТУРАЛЬНЫЙ ЖАРЕНЫЙ МОЛОТЫЙ (ГОНДУРАС)",
+  "price": 380,
+  "weight": "150 г",
+  "expiry": "12 месяцев",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+}, {
+  "productId": "7",
+  "productName": "КОФЕ \"ЭФИОПИЯ ИРГАЧИФ\" МОЛОТЫЙ",
+  "price": 353,
+  "weight": "250 г",
+  "expiry": "",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+}, {
+  "productId": "8",
+  "productName": "КОФЕ \"БРАЗИЛИЯ\" В ЗЕРНАХ",
+  "price": 370,
+  "weight": "150 г",
+  "expiry": "3 месяца",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+},
+{
+  "productId": "9",
+  "productName": "КОФЕ НАТУРАЛЬНЫЙ ЖАРЕНЫЙ МОЛОТЫЙ \"ПО-ВОСТОЧНОМУ\"",
+  "price": 350,
+  "weight": "150 г",
+  "expiry": "12 месяцев",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+},
+{
+  "productId": "10",
+  "productName": "КОФЕ ПРЕМИУМ АРАБИКА МОЛОТЫЙ САН РАФАЕЛЬ",
+  "price": 800,
+  "weight": "250 г",
+  "expiry": "",
+  "barcodeNumber": "80761761",
+  "spacing": 300
+}
+
+]

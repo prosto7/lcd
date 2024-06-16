@@ -1,0 +1,39 @@
+/* Ruler.css */
+.ruler {
+    display: flex;
+    width: auto; /* ширина экрана */
+    height: 50px; /* высота линейки */
+    background-color: #4474ac; /* фон линейки */
+    border-top: 1px solid #000; /* верхняя граница */
+    border-bottom: 1px solid #000; /* нижняя граница */
+    position: relative;
+    
+    z-index: 5555; /* для прокрутки, если делений слишком много */
+  }
+  
+  .ruler__division {
+    width: 100px; /* фиксированная ширина деления */
+    height: 100%;
+    display: flex;
+    flex-shrink: 0; /* чтобы деления не сжимались */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .ruler__mark {
+    width: 3px;
+    height: 10px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .ruler__number {
+    width: 100%; /* чтобы число занимало всю ширину деления */
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    font-size: 20px;
+  }
+  

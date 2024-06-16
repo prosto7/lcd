@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+{
+    "videoPath": "././assets/back_1.mp4",
+    "videoDuration": 8000,  
+    <!--videoDuration Recommended doesnt use this value less of 8000 (8 sec) -->
+    "displayInterval":16000
+
+    }
+
+
+    
 ## Available Scripts
 
 In the project directory, you can run:

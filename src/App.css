@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+/* App.css */
+
+@font-face {
+  font-family: 'Villula';
+  src: local('Villula'),
+    url('./fonts/Villula-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.app-container {
+  z-index: 2;
+  background-color: black;
+  font-family: 'Villula', sans-serif;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  /* height: 220px; */
+  padding: 10px;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-fluid {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 250px;
+  padding-bottom: 30px;
+  background-color: #17ae5b;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-fluid .lcd2_container  {
+  width: 6900px;
+}
+
+.container-fluid .lcd1_container  {
+  width: 6700px;
+}
+
+.container_for_video, .cards-container {
+  transition: opacity 1s ease-in-out;
+  opacity: 0; /* Начальное состояние невидимости */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.show {
+  opacity: 1; /* Полная видимость для активного состояния */
+}
+
+.hide {
+  opacity: 0; /* Скрыть при неактивном состоянии */
+}
+
+
+/* ProductCard.css */
+.product-card {
+  position: relative;
+  z-index: 1;
+  min-width: 340px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  flex: 0 0 calc((6700px / 10) - 10px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-family: Villula;
+  flex: 1 0 calc(10% - 4%);
+  /* 10% для 10 карточек, -4% чтобы вычесть отступы (2% с каждой стороны) */
+  max-width: calc(10% - 4%);
+  /* чтобы карточки не выходили за пределы своего flex базиса */
+
 }
 
-.App-link {
-  color: #61dafb;
+.product-name {
+  font-size: 28px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 120px;
 }
 
-@keyframes App-logo-spin {
+.product-price {
+
+  font-size: 46px;
+}
+
+.product-details {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.product-qr img {
+  width: 50px;
+  height: 35px;
+  margin-bottom: 0;
+}
+
+.product-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* Прижимаем содержимое к нижней части карточки */
+  width: 100%;
+  /* Занимаем всю ширину карточки */
+}
+
+.cards-container {
+  display: flex;
+  padding-left: 50px;
+}
+
+.container_for_video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Скрыть элемент управления воспроизведением */
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
+
+.video-background {
+  background-color: #17ae5b;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  /* Видео будет на заднем плане */
+}
+
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
+
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s forwards;
+}
+
+.fade-out {
+  animation: fadeOut 2s forwards;
+}
+
