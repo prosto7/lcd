@@ -2,7 +2,8 @@
     "showRuler": false,
     "videoPath": "././assets/back_1.mp4",
     "videoDuration": 6000,  
-    "displayInterval":20000
-
+    "displayInterval":20000,
+    "newPath": "/lcd12",
+    "backgroundColor": "#123"
     }
   
